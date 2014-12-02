@@ -7,7 +7,7 @@ module Version
   
   YEAR = "2014"
   MONTH = "12"
-  DAY = "2"
+  DAY = "02"
 
   def self.to_s
     [MAJOR, MINOR, PATCH, PRE].compact.join(".")
